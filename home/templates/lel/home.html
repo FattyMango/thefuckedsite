@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+	<title>Home</title>
+	<style >
+		#lel{
+			    margin: auto;
+            display: flex;
+          align-items: center;
+          justify-content: center;  
+          height: 30vh;
+          font-size: 40px;
+          font-family: 'Comfortaa', cursive;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="alert alert-warning" role="alert">
+		
+
+<div class="spinner-grow text-info spinner-grow-sm" role="status">
+  <span class="sr-only"></span>
+</div>
+		<span class="badge badge-pill badge-info">Info</span>
+  IF (YOU FUCKED UP) "HERE IS YOUR HEAVEN!" ;
+</div>
+
+	<div id="lel">
+	Choose Your Fuck
+	</div>
+
+
+	{% for fucked in hm %}
+	<ul>
+
+	<li>
+		
+		<a href={{fucked}}>
+			{{fucked}}</a>
+		</li>
+	</ul>
+	{% endfor %}
+</body>
+</html>
